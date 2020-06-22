@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PORTER | SIGN IN</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationPassword.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationPassword.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="menu">
+<table id="logo" width="100%" border="0" cellspacing="0">
+  <tr>
+    <td width="6%">
+   		<a href="index.html">
+    	  <img src="images/index_03.gif" border="0" />
+    	</a>
+    </td>
+    <td width="94%" valign="bottom"><ul>
+
+ <li class="dropdown">
+	<a href="shop.html" class="dropbtn">SHOP</a>
+	<div class="dropdown-content">
+	 <a href="wallet1.html">WALLET</a>
+         <a href="FUNNY PACK.html">FANNY PACK</a>
+     <a href="FUNNY PACK.html">SHOUDEL BAG</a>
+     <a href="FUNNY PACK.html">SLING BAG</a>
+     <A href="FUNNY PACK.html">MASSENGER BAG</a>
+     <a href="FUNNY PACK.html">TOTE BAG</a>
+     <a href="FUNNY PACK.html">ACCESSORIES</a>
+	</div></li>
+   <li><a href="features.html">FEATURES</a></li>
+   <li><a href="about.html">ABOUT</a></li>
+   <li class="right"><a href="#">CART</a></li>
+   <li class="right"><a href="signin.html">SIGN IN</a></li>
+</ul>
+</td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+
+
+<div class="sgbackground">
+<div class="signin">
+
+<form id="form1" action="" method="get">
+
+<table width="100%" border="0" cellspacing="20">
+<tr>
+<td><h3>SIGN IN</h3></td>
+</tr>
+  <tr>
+    <td><span id="sprytextfield1">EMAIL</span></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="email" id="email" />
+  <span class="textfieldRequiredMsg">A value is required.</span></td>
+  </tr>
+  <tr>
+    <td><span id="sprypassword1">PASSWORD</span></td>
+  </tr>
+  <tr>
+    <td><input type="password" name="password" id="password" />
+<span class="passwordRequiredMsg">A value is required.</span> </td>
+  </tr>
+  <tr>
+    <td><input type="submit" value="SIGN IN" id="submit" /></td>
+  </tr>
+  <tr>
+  <td><h3>NEW HERE?</h3></td>
+  </tr>
+  <tr>
+  <td>Checkout faster and view order history</td>
+  </tr>
+  <tr>
+  <td><button><a href="account.html">CREATE AN ACCOUNT</button></td>
+  </tr>
+</table>
+
+  
+  
+</form>
+
+
+</div>
+</div>
+
+<div class="footer">
+<table width="80%" border="0" cellspacing="0" align="center">
+  <tr>
+    <td><img src="images/index_92.gif" /></td>
+    <td>&nbsp;</td>
+    <td><img src="images/index_95.png" /></td>
+    <td>&nbsp;</td>
+    <td>
+    <p>SHIPPING INFORMATION</p>
+    <P>RETURNS & EXCHANGES</P>
+    <P>+6017-5757146</P>
+    <p>+6012-3456789</p>
+    <p>JIACHENLOH0325@GMAIL.COM</p>
+    <P> LORONG USAHANIAGA 1,<br />
+    TAMAN USAHANIAGA,<br />
+    14000 BUKIT MERTAJAM,<br />
+    PULAU PINANG</P>
+    
+    </td>
+  </tr>
+</table>
+</div>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("menu").style.top = "0";
+  } else {
+    document.getElementById("menu").style.top = "-150px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1");
+</script>
+</body>
+</html>
