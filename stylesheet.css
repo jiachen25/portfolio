@@ -95,6 +95,13 @@ li.right {float: right;}
 	
 }
 
+p a{
+	text-decoration:none;
+	color:#393838;
+}
+	
+	
+
 /*index*/
 .background{
 	width:100%;
@@ -112,6 +119,7 @@ li.right {float: right;}
 .ftbackground{
 	width:100%;
 	margin-top:70px;
+	margin-bottom:50px;
 }
 
 .features1{
@@ -124,6 +132,10 @@ li.right {float: right;}
 .abbackground{
 	width:100%;
 	margin-top:70px;
+}
+
+.about1{
+	padding-bottom:20px;
 }
 
 .about2{
@@ -139,6 +151,11 @@ li.right {float: right;}
 	background-color:transparent;
 	margin:auto;
 	width:85%;
+}
+.about4{
+	width:95%;
+	margin:auto;
+	
 }
 .textab{
 	margin-left:65%;
